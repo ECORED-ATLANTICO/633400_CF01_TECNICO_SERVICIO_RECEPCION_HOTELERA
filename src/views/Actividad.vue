@@ -2,89 +2,86 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
+  
       #Actividad                
-      <ActividadController :cuestionario="cuestionario"/>
+        <Actividad :cuestionario="cuestionario"/>
   
   </template>
 
 <script>
-import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
-
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
   components: {
-    ActividadController,
+    Actividad,
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Reconociendo los fundamentos de la industria hotelera.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar la comprensión del aprendiz sobre los conceptos fundamentales de la industria hotelera, su evolución, estructura organizacional, normativa básica y terminología técnica, mediante la identificación correcta de enunciados, fortaleciendo la apropiación conceptual necesaria para el desempeño en el contexto técnico profesional del sector alojamiento y hospedaje.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Cuál es el propósito principal de la industria hotelera?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Ofrecer únicamente alojamiento a turistas extranjeros.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Prestar servicios de alojamiento y otros servicios complementarios a diferentes tipos de huéspedes.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Administrar exclusivamente agencias de viajes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Comercializar únicamente paquetes turísticos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué factor ha influido directamente en la evolución histórica de la hotelería?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Porque todos utilizan la misma clasificación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto:
+                'Porque la normativa y la clasificación turística varían según cada país.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Porque no existe regulación.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Porque dependen únicamente del idioma.',
               esCorrecta: false,
             },
           ],
@@ -93,30 +90,31 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Por qué los establecimientos de alojamiento reciben diferentes denominaciones entre países?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Porque todos utilizan la misma clasificación.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+                'Porque la normativa y la clasificación turística varían según cada país.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Porque no existe regulación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Porque dependen únicamente del idioma.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -125,28 +123,29 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál es el propósito de la estructura organizacional de un hotel?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Elaborar campañas publicitarias.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto:
+                'Definir áreas, cargos y niveles de responsabilidad para una operación eficiente.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Determinar únicamente las tarifas.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Organizar eventos sociales.',
               esCorrecta: false,
             },
           ],
@@ -155,30 +154,30 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Cuál de las siguientes funciones corresponde al departamento de recepción?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Preparar alimentos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Gestionar el registro, la atención y la salida de los huéspedes.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Realizar mantenimiento de equipos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Supervisar exclusivamente la lavandería.',
               esCorrecta: false,
             },
           ],
@@ -188,28 +187,29 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué aportan los servicios complementarios a un establecimiento hotelero?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Incrementa únicamente los costos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Mejora la experiencia del huésped y generan valor agregado.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Eliminar la necesidad del alojamiento.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Sustituye el servicio de recepción.',
               esCorrecta: false,
             },
           ],
@@ -219,28 +219,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál es el objetivo de las normas técnicas sectoriales hoteleras en Colombia?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Limitar el funcionamiento de los hoteles.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto:
+                'Promover la calidad y estandarizar los procesos de servicio.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Regular únicamente las tarifas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Clasificar únicamente restaurantes.',
               esCorrecta: false,
             },
           ],
@@ -250,28 +251,29 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Por qué la tipología de habitaciones es importante en un hotel?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Sólo sirve para decorar el establecimiento.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Influye en la tarifa, la comercialización y la gestión de reservas.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'No tiene relación con la operación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Sólo interesa al área de mantenimiento.',
               esCorrecta: false,
             },
           ],
@@ -281,19 +283,30 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es el beneficio del uso de siglas y convenciones hoteleras?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Incrementar el número de huéspedes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Facilitar la comunicación y la operación entre las diferentes áreas.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la cantidad de habitaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar los procedimientos administrativos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +315,29 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Respecto a las siglas utilizadas para identificar el estado de las habitaciones, es correcto afirmar que:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Son obligatorias y universales en todos los hoteles',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Pueden variar según el establecimiento o el sistema utilizado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sólo se utilizan en hoteles cinco estrellas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No tienen utilidad operativa.',
               esCorrecta: false,
             },
           ],
@@ -322,185 +346,339 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Cuál es la función principal del área de housekeeping?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Gestionar reservas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Garantizar la limpieza, presentación y disponibilidad de las habitaciones.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Elaborar estados financieros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar campañas comerciales.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué información permite identificar un organigrama?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Únicamente los salarios.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Los niveles jerárquicos y los canales de comunicación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Las tarifas de alojamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los horarios de los huéspedes.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Por qué es importante cumplir la normativa turística?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Porque sólo aplica a hoteles internacionales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Porque garantiza una operación legal y de calidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Porque reemplaza los procedimientos internos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque eliminan las auditorías.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Cuál es la característica de la hotelería moderna?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Eliminar el contacto con el huésped.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Integrar tecnología y personalizar la experiencia del cliente.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Reducir todos los servicios complementarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Operar únicamente de forma presencial.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Por qué un técnico profesional debe conocer la estructura organizacional del hotel?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Para reemplazar a todos los jefes.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Para integrarse adecuadamente a la operación y comprender sus responsabilidades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Para definir las tarifas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Para administrar exclusivamente el área financiera.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuáles de los siguientes establecimientos hace parte del sector de alojamiento?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Centro comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Hotel.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Hospital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Banco.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué área mantiene contacto permanente con el huésped durante su estadía?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Contabilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Recepción.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Compras.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Archivo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es uno de los objetivos de ejercer un servicio de calidad en hotelería?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar únicamente los costos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Lograr la satisfacción y fidelización del huésped.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la ocupación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar los servicios ofrecidos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué elemento hace parte de la tecnología técnica utilizada en hotelería?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Fórmulas químicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Siglas y convenciones operativas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Lenguaje jurídico exclusivamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Términología médica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es la importancia de conocer los fundamentos de la industria hotelera?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sólo sirve para desempeñar cargos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Proporciona las bases para comprender la operación y prestarnos un servicio de calidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Únicamente permite clasificar hoteles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sólo es útil para el área comercial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        '¡Excelente! Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
