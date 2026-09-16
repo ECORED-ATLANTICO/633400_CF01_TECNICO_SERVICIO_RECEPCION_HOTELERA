@@ -208,8 +208,7 @@
                 p.mb-0 Lo invitamos a leer las demás disposiciones que realiza la ley 300 de 1996 en Colombia, a través del enlace que se encuentra a continuación:
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_0300_1996.html" target="_blank")
-                  span Abrir enlace
-                  i.fas.fa-external-link-alt
+                  span Ir al recurso
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4.mb-lg-0
@@ -236,8 +235,7 @@
                 p.mb-0 Para profundizar sobre las disposiciones que realiza la Resolución 657 de 2005 en Colombia, lo invitamos a ingresar al enlace a continuación:
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=16635" target="_blank")
-                  span Abrir enlace
-                  i.fas.fa-external-link-alt
+                  span Ir al recurso
 
     
     separador
@@ -326,8 +324,7 @@
                 p.mb-0 Lo invitamos a consultar en la sección de Anexos, el contenido completo de cada una de estas normas.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/NTSH.zip')" target="_blank")
-                  span Abrir enlace
-                  i.fas.fa-external-link-alt
+                  span Ir al recurso
     
 </template>
 
