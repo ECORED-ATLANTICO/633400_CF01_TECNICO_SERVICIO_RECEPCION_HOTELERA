@@ -457,7 +457,7 @@ export default {
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
-          cargo: 'Desarrollo full stack',
+          cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
