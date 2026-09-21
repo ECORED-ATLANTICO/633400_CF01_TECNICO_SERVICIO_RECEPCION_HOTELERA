@@ -12,7 +12,7 @@
       .row.mb-5.bg-color-1.p-0.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-5.col-md-8.mb-0.mb-lg-0.p-4.p-lg-2.p-xl-0
           figure.mb-0
-            img(src="@/assets/curso/intro/img01.png" alt="Descripción de la imagen")
+            img(src="@/assets/curso/intro/img01.png" alt="")
         .col-lg-7.p-4.p-lg-2.p-xl-4
           p.mb-0 La industria hotelera forma parte esencial del sector turístico y desempeña un papel clave en la atención, permanencia y satisfacción de los viajeros. Su desarrollo está estrechamente ligado a la evolución del turismo, a las dinámicas del mercado y a las expectativas cambiantes de los clientes, lo que exige a los establecimientos de alojamiento una gestión organizada, estandarizada y orientada a la calidad del servicio. En este contexto, resulta fundamental que el talento humano del sector conozca las características de la industria hotelera, sus tipologías, servicios y protocolos, como base para una adecuada interacción con el cliente.
 

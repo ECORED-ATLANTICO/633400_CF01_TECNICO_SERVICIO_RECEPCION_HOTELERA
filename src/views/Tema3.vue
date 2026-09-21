@@ -155,56 +155,56 @@
       .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img17.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img17.svg' alt='')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Recepción y atención permanente.
       .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img18.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img18.svg' alt='')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Limpieza periódica del alojamiento.
       .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img19.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img19.svg' alt='')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Cambio periódico de ropa de cama.
       .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img20.svg' alt='')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Cambio periódico de toallas.
       .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img21.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img21.svg' alt='')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Cajilla de seguridad.
       .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img22.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img22.svg' alt='')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Servicios de restaurante y <i>room service</i>.
       .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img23.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img23.svg' alt='')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Salones de eventos.
       .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img24.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img24.svg' alt='')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Locales comerciales.
@@ -212,7 +212,7 @@
       .col-xl-6.col-lg-8.mb-3.mb-lg-0
         .tarjeta-avatar-b.align-items-center(data-aos="zoom-in")
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img25.svg' alt='AvatarTop' style='max-width: 85px;')
+            img(src='@/assets/curso/tema3/img25.svg' alt='' style='max-width: 85px;')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Prestación de servicios adicionales como: lavandería, custodia de maletas, prensa, etc.
@@ -227,7 +227,6 @@
 
         .tabla-a.color-acento-contenido.mb-0
           table
-            caption Nota. <span style="font-weight: normal">SENA, (2026).</span>
             thead
               tr
                 th Clasificación del servicio complementario
@@ -303,7 +302,7 @@
       .row.justify-content-center.align-items-center.bg-color-1.p-0
         .col-lg-5.p-0
           figure
-            img(src='@/assets/curso/tema3/img26.png' alt='Texto explicativo')
+            img(src='@/assets/curso/tema3/img26.png' alt='')
         .col-lg-7.p-4
           p.mb-0 Adicionalmente, los hoteles pueden ofrecer otros servicios complementarios orientados a cubrir requerimientos particulares de los huéspedes, como lavandería, transporte, custodia de equipaje, prensa, alquiler de salones para eventos, convenciones o reuniones empresariales, así como la disponibilidad de locales comerciales y espacios recreativos. La adecuada gestión de estos servicios exige el cumplimiento de protocolos, estándares de calidad y procedimientos técnicos previamente establecidos, así como una comunicación clara al cliente sobre su disponibilidad y condiciones de uso. De esta manera, los servicios complementarios se convierten en un elemento estratégico para fortalecer la calidad del servicio, fidelizar al cliente y apoyar los procesos de oferta y reservación dentro del establecimiento hotelero.
         
@@ -315,7 +314,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0.col-md-10
-        img(src='@/assets/curso/tema3/img27.png' alt='Texto explicativo')
+        img(src='@/assets/curso/tema3/img27.png' alt='')
       .col-lg-9
         p.mb-0 Las convenciones son reglas o lineamientos simbólicos que permiten representar información de manera clara y estandarizada, con el fin de evitar confusiones y facilitar la interpretación de datos dentro de un determinado contexto. Aunque su origen se asocia al diseño cartográfico, en el sector hotelero las convenciones cumplen una función similar, ya que se utilizan para organizar, identificar y comunicar de forma ágil información clave relacionada con la operación del establecimiento, especialmente en áreas como recepción, reservas y alojamiento.
 
@@ -336,13 +335,13 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-xl-2.col-lg-2.d-none.d-lg-flex
         figure
-          img(src='@/assets/curso/tema3/img29.png' alt='Texto explicativo')
+          img(src='@/assets/curso/tema3/img29.png' alt='')
       .col-lg-10
         .row
           .col-xl-3.col-md-4.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0
@@ -351,7 +350,7 @@
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0
@@ -360,7 +359,7 @@
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0
@@ -369,7 +368,7 @@
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0
@@ -378,7 +377,7 @@
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0
@@ -387,7 +386,7 @@
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0
@@ -396,7 +395,7 @@
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0
@@ -406,7 +405,7 @@
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0
@@ -416,7 +415,7 @@
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0
@@ -425,7 +424,7 @@
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img()
-                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
+                img(src='@/assets/curso/tema3/img30.svg' alt='', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
                   p.mb-0

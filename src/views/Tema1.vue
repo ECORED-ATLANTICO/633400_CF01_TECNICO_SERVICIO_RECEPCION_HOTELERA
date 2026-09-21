@@ -67,6 +67,8 @@
               figure
                 img(src="@/assets/curso/tema1/img08.png", alt="").mx-auto
 
+    p.mb-4 Lo invitamos a revisar el siguiente video, el cual realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
+
     .row.justify-content-center.mb-5
       //- .col-md-12.col-lg-12
       //-   .titulo-sexto.color-acento-contenido
@@ -77,7 +79,7 @@
         figure
           .video.mb-2
             iframe(width="560" height="315" src="https://www.youtube.com/embed/UYsNuXu_99A?si=Sq_Lr0zovhMZ_gAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Historia de la industria hotelera
+
 
 
     separador
@@ -123,7 +125,6 @@
         figure.mb-0
           img.mb-3(src="@/assets/curso/tema1/img14.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996.").d-none.d-lg-block
           img.mb-3(src="@/assets/curso/tema1/img15.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996.").d-block.d-lg-none
-        figcaption <strong>Nota.</strong> SENA, (2026).
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
@@ -148,7 +149,6 @@
           span Aspectos principales de la Ley 300 de 1996
         .tabla-a.color-acento-contenido 
           table
-            caption Nota. <span style="font-weight: normal">SENA, (2026).</span>
             thead
               tr
                 th Aspecto

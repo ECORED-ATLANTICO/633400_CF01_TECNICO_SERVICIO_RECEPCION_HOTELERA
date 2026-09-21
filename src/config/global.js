@@ -146,7 +146,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/621602_CF01_DU.pdf',
+        download: 'downloads/633400_CF01_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -422,7 +422,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -437,12 +437,12 @@ export default {
       autores: [
         {
           nombre: 'Sandra Isabel Suarez Delgado',
-          cargo: 'Experto temático',
+          cargo: 'Experta temática',
           centro: 'Centro de Servicios y Gestión Empresarial',
         },
         {
           nombre: 'María Fernanda Morales Angulo',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseñadora instruccional',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
@@ -452,12 +452,12 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseño web',
+          cargo: 'Diseñadora web',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
-          cargo: 'Desarrollador <i>full stack</i>',
+          cargo: 'Desarrollo full stack',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -472,12 +472,12 @@ export default {
       autores: [
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -487,7 +487,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],

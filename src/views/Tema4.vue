@@ -114,7 +114,6 @@
         figure.mb-0
           img.mb-3(src="@/assets/curso/tema4/img11.svg", alt="La figura tres muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero.").d-none.d-lg-block
           img.mb-3(src="@/assets/curso/tema4/img12.svg", alt="La figura tres muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero.").d-block.d-lg-none
-        figcaption <strong>Nota.</strong> SENA, (2026).
 
     .container
       .titulo-con-imagen.mb-5(data-aos="fade-right")

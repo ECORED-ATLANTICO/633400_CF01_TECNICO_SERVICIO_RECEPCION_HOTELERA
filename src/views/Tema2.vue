@@ -70,7 +70,6 @@
         figure.mb-0
           img.mb-3(src="@/assets/curso/tema2/img06.png", alt="En la figura 2 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006.").d-none.d-lg-block
           img.mb-3(src="@/assets/curso/tema2/img07.png", alt="En la figura 2 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006.").d-block.d-lg-none
-        figcaption <strong>Nota.</strong> SENA, (2026).
 
 
       
