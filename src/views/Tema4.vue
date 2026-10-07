@@ -162,7 +162,7 @@
                     | Para asegurar la garantía en eficiencia del servicio.
                   li
                     i.lista-ul__vineta
-                    | Para la optimización de prestación en el servicio. 
+                    | Para la optimización de la prestación del servicio. 
 
         p.mb-0 En el establecimiento hotelero se utilizan para todas las áreas cada uno con su fin, algunos son comunes a todas las áreas. Ejemplo: lista de huéspedes. 
 

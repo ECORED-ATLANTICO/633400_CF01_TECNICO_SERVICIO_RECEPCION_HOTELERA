@@ -47,7 +47,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Establecimientos de alojamiento y hospedaje',
+        titulo: 'Establecimientos de alojamiento y hospedajes',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -70,7 +70,7 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Tipo de habitaciones y acomodación',
+            titulo: 'Tipos de habitaciones y acomodación',
             hash: 't_3_1',
           },
           {

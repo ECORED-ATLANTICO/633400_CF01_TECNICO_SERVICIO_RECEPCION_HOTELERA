@@ -254,11 +254,10 @@
                 td Cajilla de seguridad
                 td Dispositivo destinado al resguardo de objetos de valor del huésped durante su estancia.
               tr
-                td Servicios de alimentación y bebidas
+                td(rowspan="3") Servicios de alimentación y bebidas
                 td Restaurante
                 td Prestación de servicio de alimentos dentro del establecimiento, orientado a cubrir necesidades nutricionales del huésped.
               tr
-                td(rowspan="2") Servicios de <i>confort</i> y mantenimiento
                 td <i>Room service</i>
                 td Servicio de alimentos y bebidas ofrecido directamente en la habitación del huésped.
               tr

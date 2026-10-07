@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Establecimientos de alojamiento y hospedaje
+      h1 Establecimientos de alojamiento y hospedajes
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
