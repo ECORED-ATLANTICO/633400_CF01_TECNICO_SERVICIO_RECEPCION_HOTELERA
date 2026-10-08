@@ -68,8 +68,8 @@
             b Figura 2.
           span Criterios de evaluación para otorgamiento y categorización de estrellas 
         figure.mb-0
-          img.mb-3(src="@/assets/curso/tema2/img06.png", alt="En la figura 2 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006.").d-none.d-lg-block
-          img.mb-3(src="@/assets/curso/tema2/img07.png", alt="En la figura 2 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006.").d-block.d-lg-none
+          img.mb-3(src="@/assets/curso/tema2/img06.png", alt="En la figura 2 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006. Esta norma determina la categorización por estrellas de los hoteles en las modalidades 1, 2, 3, 4 y 5 estrellas; teniendo en cuenta, además, los requisitos legales vigentes para cumplir con dicha norma y la cantidad de puntos que requiere el hotel para obtener cada categorización.").d-none.d-lg-block
+          img.mb-3(src="@/assets/curso/tema2/img07.png", alt="En la figura 2 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006. Esta norma determina la categorización por estrellas de los hoteles en las modalidades 1, 2, 3, 4 y 5 estrellas; teniendo en cuenta, además, los requisitos legales vigentes para cumplir con dicha norma y la cantidad de puntos que requiere el hotel para obtener cada categorización.").d-block.d-lg-none
 
 
       

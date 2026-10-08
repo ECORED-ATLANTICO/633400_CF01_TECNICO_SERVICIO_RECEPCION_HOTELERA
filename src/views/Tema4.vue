@@ -112,8 +112,8 @@
             b Figura 3.
           span Ejemplo gráfico de una estructura organizacional  
         figure.mb-0
-          img.mb-3(src="@/assets/curso/tema4/img11.svg", alt="La figura tres muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero.").d-none.d-lg-block
-          img.mb-3(src="@/assets/curso/tema4/img12.svg", alt="La figura tres muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero.").d-block.d-lg-none
+          img.mb-3(src="@/assets/curso/tema4/img11.svg", alt="La figura 3 muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero. En dicho organigrama la estructura la encabeza el director general, seguido por el subgerente ejecutivo. La subgerencia ejecutiva la componen la gerencia de recursos humanos, las jefaturas de mantenimiento, compras, seguridad, relaciones públicas, las gerencias de ventas, de división de cuartos, de alimentos y bebidas y la contraloría general.").d-none.d-lg-block
+          img.mb-3(src="@/assets/curso/tema4/img12.svg", alt="La figura 3 muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero. En dicho organigrama la estructura la encabeza el director general, seguido por el subgerente ejecutivo. La subgerencia ejecutiva la componen la gerencia de recursos humanos, las jefaturas de mantenimiento, compras, seguridad, relaciones públicas, las gerencias de ventas, de división de cuartos, de alimentos y bebidas y la contraloría general.").d-block.d-lg-none
 
     .container
       .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -164,7 +164,7 @@
                     i.lista-ul__vineta
                     | Para la optimización de la prestación del servicio. 
 
-        p.mb-0 En el establecimiento hotelero se utilizan para todas las áreas cada uno con su fin, algunos son comunes a todas las áreas. Ejemplo: lista de huéspedes. 
+        p.mb-0 En el establecimiento hotelero se utilizan para todas las áreas cada uno con su fin, algunos son comunes a todas las áreas. Ejemplo: la Gerencia General o el departamento de Recursos Humanos. 
 
     separador
 

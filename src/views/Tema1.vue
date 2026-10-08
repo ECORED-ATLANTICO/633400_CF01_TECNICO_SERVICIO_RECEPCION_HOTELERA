@@ -105,15 +105,17 @@
           img(src="@/assets/curso/tema1/img12.png", alt="").mx-auto
 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-lg-12(data-aos="fade-right")
         .row.justify-content-center.align-items-center
           .col-auto.d-none.d-lg-block
             figure
               img(src="@/assets/curso/tema1/img13.png", alt="").mx-auto
           .col-lg
-            p.mb-0 La Ley 300 de 1996 expide la ley general de turismo, la cual estableció que los consejos distritales o municipales, determinarán las zonas de desarrollo turístico prioritario, así mismo autoriza a las corporaciones de aquellos municipios con menos de cien mil habitantes, que posean gran valor histórico, artístico y cultural, para que puedan establecer un peaje turístico, sin que la tarifa supere un salario mínimo diario legal por vehículo de uso público o comercial y medio salario mínimo diario legal por vehículo de uso particular. Esta Ley es importante porque también dicta disposiciones sobre:
-
+            p.mb-1 El marco normativo del sector turístico en Colombia se rige principalmente por la Ley 300 de 1996 (Ley General de Turismo), la cual ha sido modificada y complementada de manera profunda para adaptarse a las dinámicas actuales del mercado. 
+            p.mb-1 Entre las actualizaciones más significativas se destaca la Ley 1558 de 2012, que reestructuró la institucionalidad del sector y fortaleció los mecanismos de formalización y competitividad. Posteriormente, se expidió la Ley 2068 de 2020, que transformó el sector bajo un enfoque de sostenibilidad, calidad y reactivación económica, introduciendo obligaciones específicas en materia ambiental y de derechos para los usuarios. 
+    p.mb-1 Asimismo, la Ley 2294 de 2023 (Plan Nacional de Desarrollo 2022-2026) incorporó disposiciones clave encaminadas al turismo comunitario, la infraestructura turística sostenible y el ordenamiento territorial en regiones con alto potencial. Todo este compendio legal se articula con la normativa reglamentaria vigente contenida en el Decreto Único Reglamentario 1074 de 2015, el cual compila las directrices técnico-operativas aplicables a los Prestadores de Servicios Turísticos (PST) y a los establecimientos de alojamiento y hospedaje en el país.
+    p.mb-3 Esta Ley es importante porque también dicta disposiciones sobre:
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
@@ -123,8 +125,8 @@
           span Disposiciones Ley 300 de 1996 
       .col-md-10.col-lg-12
         figure.mb-0
-          img.mb-3(src="@/assets/curso/tema1/img14.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996.").d-none.d-lg-block
-          img.mb-3(src="@/assets/curso/tema1/img15.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996.").d-block.d-lg-none
+          img.mb-3(src="@/assets/curso/tema1/img14.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996. Dentro de estos afectos se encuentran entre otros, que el ecoturismo, etnoturismo, agroturismo, el turismo metropolitano, el turismo de interés social, el mercadeo promoción del turismo y la cooperación turística internacional, los incentivos tributarios, el Fondo de promoción turística, la Corporaciíon Nacional de Turismo, el Registro Nacional de Turismo y los derechos y obligaciones de los usuarios, control y sanciones pertinentes.").d-none.d-lg-block
+          img.mb-3(src="@/assets/curso/tema1/img15.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996. Dentro de estos afectos se encuentran entre otros, que el ecoturismo, etnoturismo, agroturismo, el turismo metropolitano, el turismo de interés social, el mercadeo promoción del turismo y la cooperación turística internacional, los incentivos tributarios, el Fondo de promoción turística, la Corporaciíon Nacional de Turismo, el Registro Nacional de Turismo y los derechos y obligaciones de los usuarios, control y sanciones pertinentes.").d-block.d-lg-none
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
@@ -253,10 +255,10 @@
         p.mb-0 A continuación, se encuentran las normas que proporcionan los requisitos necesarios para cumplir los procedimientos definidos en los establecimientos de alojamiento y hospedaje.
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-8.col-lg-3.mb-4.mb-lg-0.order-lg-2
+      .col-md-8.col-lg-3.col-xl-3.mb-4.mb-lg-0.order-lg-2
         figure
-          img(src="@/assets/curso/tema1/img22.png", data-aos="zoom-in").mx-auto
-      .col-lg-9.order-lg-1
+          img.d-none.d-xl-block.mx-auto(src="@/assets/curso/tema1/img22.png", data-aos="zoom-in")
+      .col-lg-12.col-xl-9.order-lg-1
         TabsA.color-acento-botones()
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 001")
             ul.lista-ul
@@ -266,6 +268,14 @@
               li
                 i.lista-ul__vineta
                 | Realización de actividades básicas para la prestación del servicio.
+            .cita-decorada
+              blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+                .row.justify-content-center.align-items-center
+                  .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
+                    p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
+                  .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH001.pdf')" target="_blank")
+                      span Ir al recurso
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 002")
             ul.lista-ul
@@ -275,6 +285,14 @@
               li
                 i.lista-ul__vineta
                 | Información a clientes, atención de sugerencias y reclamaciones de acuerdo a políticas de servicio.
+            .cita-decorada
+              blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+                .row.justify-content-center.align-items-center
+                  .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
+                    p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
+                  .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH002.pdf')" target="_blank")
+                      span Ir al recurso
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 003")
             ul.lista-ul
@@ -284,6 +302,14 @@
               li
                 i.lista-ul__vineta
                 | Prestación de servicio de recepción y reservas conforme a manuales existentes.
+            .cita-decorada
+              blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+                .row.justify-content-center.align-items-center
+                  .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
+                    p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
+                  .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH003.pdf')" target="_blank")
+                      span Ir al recurso
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 004")
             ul.lista-ul
@@ -293,6 +319,14 @@
               li
                 i.lista-ul__vineta
                 | Atención del área de conserjería de acuerdo al manual de procedimientos.
+            .cita-decorada
+              blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+                .row.justify-content-center.align-items-center
+                  .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
+                    p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
+                  .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH004.pdf')" target="_blank")
+                      span Ir al recurso
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 005")
             ul.lista-ul
@@ -302,6 +336,14 @@
               li
                 i.lista-ul__vineta
                 | Manejo de valores e ingresos relacionados con la operación del establecimiento.
+            .cita-decorada
+              blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+                .row.justify-content-center.align-items-center
+                  .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
+                    p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
+                  .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH005.pdf')" target="_blank")
+                      span Ir al recurso
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 006")
             ul.lista-ul
@@ -311,20 +353,17 @@
               li
                 i.lista-ul__vineta
                 | Categorización por estrellas de hoteles, requisitos normativos.
+            .cita-decorada
+              blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+                .row.justify-content-center.align-items-center
+                  .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
+                    p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
+                  .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH006.pdf')" target="_blank")
+                      span Ir al recurso
 
 
-    .row.justify-content-center.mb-0
-      .col-12.col-lg-10.mb-0
-        .cita-decorada
-          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
-            .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.mb-3.mb-lg-0
-                img(src="@/assets/curso/tema1/img17.svg", class="img-fluid cita-decorada__imagen-flotante-3")
-              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0 Lo invitamos a consultar en la sección de Anexos, el contenido completo de cada una de estas normas.
-              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
-                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/NTSH.zip')" target="_blank")
-                  span Ir al recurso
+    
     
 </template>
 

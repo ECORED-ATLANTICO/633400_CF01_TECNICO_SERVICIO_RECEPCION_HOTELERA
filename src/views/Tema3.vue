@@ -53,7 +53,7 @@
                   b Acomodación: 
                   |  puede tener dos o más camas.
               .col-lg-4.col-md-8
-                img(src="@/assets/curso/tema3/img05.png", alt="").mx-auto
+                img(src="@/assets/curso/tema3/img06.png", alt="").mx-auto
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="<i>Queen</i>")
             .row.justify-content-center.align-items-center
@@ -63,7 +63,7 @@
                   b Acomodación: 
                   |  puede ser ocupado por una o más personas.
               .col-lg-4.col-md-8
-                img(src="@/assets/curso/tema3/img06.png", alt="").mx-auto
+                img(src="@/assets/curso/tema3/img05.png", alt="").mx-auto
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="<i>King</i>")
             .row.justify-content-center.align-items-center
