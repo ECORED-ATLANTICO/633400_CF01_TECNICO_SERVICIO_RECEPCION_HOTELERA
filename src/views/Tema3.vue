@@ -22,119 +22,49 @@
     
     p.mb-4 A continuación, se describen cuáles son los diferentes tipos de habitaciones y acomodación.
     
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-12.col-xl-9.order-1.order-lg-2.order-xl-1.order-md-2
-        TabsA.tabs_x3.color-acento-botones()
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Individual")
-            .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12.mb-4.mb-lg-0
-                p.mb-3 Una habitación asignada a una persona. Las medidas de las camas individuales pueden ser: 90 centímetros de ancho por 190 de largo.
-                p.mb-0 
-                  b Acomodación: 
-                  | puede tener una o más camas, pero solo es ocupada por una persona.
-              .col-lg-4.col-md-8
-                img(src="@/assets/curso/tema3/img03.png", alt="").mx-auto
+    .bg-full-width.bg-fondo-2.tarjeta.mb-5
+      .px-1.py-4.py-md-4.p-lg-4.px-lg-2
+        SlyderA(tipo="b").bg-color-white.p-0.p-lg-4.tarjeta
+          .row.justify-content-center.align-items-center.p-4.p-lg-2
+            .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
+              p.mb-2(data-aos="fade-right") <b>Por capacidad de ocupación</b>
+              p.mb-1 <b>Individual:</b> una habitación asignada a una persona. Su acomodación puede tener una o más camas, pero solo es ocupada por una persona.
+              p.mb-1 <b>Doble:</b> una habitación asignada a dos personas. Su acomodación puede tener una o más camas.
+              p.mb-1 <b>Triple:</b> una habitación asignada a tres personas. Su acomodación puede tener dos o más camas.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Doble")
-            .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12.mb-4.mb-lg-0
-                p.mb-3 Una habitación asignada a dos personas. Las medidas de las camas dobles pueden ser: 140 centímetros de ancho por 190 de largo.
-                p.mb-0 
-                  b Acomodación: 
-                  | puede tener una o más camas.
-              .col-lg-4.col-md-8
-                img(src="@/assets/curso/tema3/img04.png", alt="").mx-auto
-
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Triple")
-            .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12.mb-4.mb-lg-0
-                p.mb-3 Una habitación asignada a tres personas.
-                p.mb-0 
-                  b Acomodación: 
-                  |  puede tener dos o más camas.
-              .col-lg-4.col-md-8
-                img(src="@/assets/curso/tema3/img06.png", alt="").mx-auto
-
-          .tarjeta.color-acento-botones--borde.p-4(titulo="<i>Queen</i>")
-            .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12.mb-4.mb-lg-0
-                p.mb-3 Una habitación con una cama de matrimonio. Las medidas de las camas <i>Queen Size</i> son 1,5 metros de ancho por 2 metros de largo.
-                p.mb-0
-                  b Acomodación: 
-                  |  puede ser ocupado por una o más personas.
-              .col-lg-4.col-md-8
-                img(src="@/assets/curso/tema3/img05.png", alt="").mx-auto
-
-          .tarjeta.color-acento-botones--borde.p-4(titulo="<i>King</i>")
-            .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12.mb-4.mb-lg-0
-                p.mb-3 Una habitación con una cama <i>King Size</i>. Las medidas de las camas <i>King Size</i> son de 2 metros de ancho x 2 metros de largo.
-                p.mb-0
-                  b Acomodación: 
-                  |  puede ser ocupado por una o más personas.
-              .col-lg-4.col-md-8
-                img(src="@/assets/curso/tema3/img07.png", alt="").mx-auto
-            
-      .col-md-8.col-lg-6.col-xl-3.mb-4.mb-lg-3.mb-xl-0.order-2.order-lg-1.order-xl-2.order-md-1
-        figure
-          img(src="@/assets/curso/tema3/img08.png").mx-auto    
-
-    .row.justify-content-center.mb-5.align-items-center
-      .col-lg-4.col-md-6.col-8.mb-4.mb-lg-0.order-1.order-md-2.order-lg-1.order-xl-1
-        figure
-          img(src="@/assets/curso/tema3/img09.png", alt="").mx-auto
-      .col-md-12.col-lg-8.order-2.order-md-1.mb-4.mb-lg-0.order-lg-2.order-xl-2
-        SlyderF(columnas="col-lg-6 col-xl-6")
-          .tarjeta.bg01.p-4
-            .row.justify-content-center.mb-3
-              .col-12
-                img(src="@/assets/curso/tema3/img12.svg", data-aos="zoom-in", style="width: 90px;").mx-auto
-            .col-12.mx-auto
-              h4.text-center.mb2 <i>Twin</i>
-              p.text-center Una habitación con dos camas iguales. 
-              p.text-center.mb-0 <b> Acomodación:</b> puede ser ocupado por una o más personas.
-          .tarjeta.bg01.p-4
-            .row.justify-content-center.mb-3
-              .col-12
-                img(src="@/assets/curso/tema3/img12.svg", data-aos="zoom-in", style="width: 90px;").mx-auto
-            .col-12.mx-auto
-              h4.text-center.mb2 <i>Suite</i>
-              p.text-center Un salón o sala de estar conectada a uno o más dormitorios. 
-              p.text-center.mb-0 <b>Acomodación</b>: de acuerdo al número de camas, puede ser asignada a una persona o más.
-          .tarjeta.bg01.p-4
-            .row.justify-content-center.mb-3
-              .col-12
-                img(src="@/assets/curso/tema3/img12.svg", data-aos="zoom-in", style="width: 90px;").mx-auto
-            .col-12.mx-auto
-              h4.text-center.mb2 <i>Junior suite</i>
-              p.text-center Una habitación individual con una cama y una sala de estar. A veces, el área para dormir está en un dormitorio separado del salón o la sala de estar.
-              p.text-center.mb-0 <b>Acomodación</b>: por su tamaño generalmente puede ser ocupada por dos, máximo tres personas.
-
-    .container
-      .row.mb-5.bg-fondo-4.br-15.justify-content-center.p-3.p-lg-2
-        .p-4
-          h4.mb-2 Otros tipos de habitaciones pueden incluir: 
-        .col-lg-5.col-12.mb-4.mb-lg-4
-          .row
-            .col-12.col-lg-12.col-xl-auto.mx-auto
+            .col-md-8.col-lg-4
               figure
-                img(src="@/assets/curso/tema3/img13.png", alt="" style="width: 110px;").mx-auto
-            .col-lg
-              p.mb-0 <b>Habitaciones comunicadas:</b> habitaciones con puertas de entrada individuales desde el exterior y una puerta de conexión entre ellas. Los huéspedes pueden moverse entre habitaciones sin pasar por el pasillo. 
-        .col-lg-4.col-12.mb-4.mb-lg-4
-          .row
-            .col-12.col-lg-12.col-xl-auto.mx-auto
+                img(src="@/assets/curso/tema3/img31.png", alt="").mx-auto
+
+          .row.justify-content-center.align-items-center.p-4.p-lg-2
+            .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
+              p.mb-2(data-aos="fade-right") <b>Por configuración y tipo de cama</b>
+              p.mb-1 <b><em>Twin:</em></b> una habitación con dos camas iguales. Puede ser ocupada por una o más personas según el número de camas disponibles.
+              p.mb-1 <b><em>Queen:</em></b> una habitación con una cama de matrimonio. Las medidas de la cama <em>Queen Size</em> son de 1,5 metros de ancho por 2 metros de largo. Puede ser ocupada por una o más personas.
+              p.mb-1 <b><em>King:</em></b> una habitación con una cama <em>King Size</em>. Las medidas de la cama <em>King Size</em> son de 2 metros de ancho por 2 metros de largo. Puede ser ocupada por una o más personas.
+            .col-md-8.col-lg-4
               figure
-                img(src="@/assets/curso/tema3/img14.png", alt="" style="width: 110px;").mx-auto
-            .col-lg
-              p.mb-0 <b>Habitaciones contiguas</b>: habitaciones con una pared común, pero sin puerta de conexión.
-        .col-lg-3.col-12.mb-4.mb-lg-4
-          .row
-            .col-12.col-lg-12.col-xl-auto.mx-auto
+                img(src="@/assets/curso/tema3/img32.png", alt="").mx-auto
+
+          .row.justify-content-center.align-items-center.p-4.p-lg-2
+            .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
+              p.mb-2(data-aos="fade-right") <b>Por tipología de unidad habitacional</b>
+              p.mb-1 <b><em>Junior Suite:</em></b> una habitación individual con una cama y una sala de estar. A veces, el área para dormir está en un dormitorio separado del salón o la sala de estar. Por su tamaño, generalmente puede ser ocupada por dos, máximo tres personas.
+              p.mb-1 <b><em>Suite:</em></b> un salón o sala de estar conectada a uno o más dormitorios. De acuerdo al número de camas, puede ser asignada a una persona o más.
+            .col-md-8.col-lg-4
               figure
-                img(src="@/assets/curso/tema3/img15.png", alt="", style="width: 110px;").mx-auto
-            .col-lg
-              p.mb-0 <b>Habitaciones adyacentes</b>: habitaciones cercanas, tal vez al otro lado del pasillo. 
+                img(src="@/assets/curso/tema3/img33.png", alt="").mx-auto
+
+          .row.justify-content-center.align-items-center.p-4.p-lg-2
+            .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
+              p.mb-2(data-aos="fade-right") <b>Resumen de dimensiones de camas</b>
+              p.mb-1 <b>Camas individuales:</b> 90 centímetros de ancho por 190 de largo.
+              p.mb-1 <b>Camas dobles:</b> 140 centímetros de ancho por 190 de largo.
+              p.mb-1 <b>Camas <em>Queen</em>:</b> 1,5 metros de ancho por 2 metros de largo.
+              p.mb-1 <b>Camas <em>King</em>:</b> 2 metros de ancho por 2 metros de largo.
+            .col-md-8.col-lg-4
+              figure
+                img(src="@/assets/curso/tema3/img34.png", alt="").mx-auto
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
