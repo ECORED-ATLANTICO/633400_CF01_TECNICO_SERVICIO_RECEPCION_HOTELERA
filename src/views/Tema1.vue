@@ -125,8 +125,8 @@
           span Disposiciones Ley 300 de 1996 
       .col-md-10.col-lg-12
         figure.mb-0
-          img.mb-3(src="@/assets/curso/tema1/img14.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996. Dentro de estos afectos se encuentran entre otros, que el ecoturismo, etnoturismo, agroturismo, el turismo metropolitano, el turismo de interés social, el mercadeo promoción del turismo y la cooperación turística internacional, los incentivos tributarios, el Fondo de promoción turística, la Corporaciíon Nacional de Turismo, el Registro Nacional de Turismo y los derechos y obligaciones de los usuarios, control y sanciones pertinentes.").d-none.d-lg-block
-          img.mb-3(src="@/assets/curso/tema1/img15.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996. Dentro de estos afectos se encuentran entre otros, que el ecoturismo, etnoturismo, agroturismo, el turismo metropolitano, el turismo de interés social, el mercadeo promoción del turismo y la cooperación turística internacional, los incentivos tributarios, el Fondo de promoción turística, la Corporaciíon Nacional de Turismo, el Registro Nacional de Turismo y los derechos y obligaciones de los usuarios, control y sanciones pertinentes.").d-block.d-lg-none
+          img.mb-3(src="@/assets/curso/tema1/img14.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996. Dentro de estos afectos se encuentran entre otros, que el ecoturismo, etnoturismo, agroturismo, el turismo metropolitano, el turismo de interés social, el mercadeo promoción del turismo y la cooperación turística internacional, los incentivos tributarios, el Fondo de promoción turística, la Corporación Nacional de Turismo, el Registro Nacional de Turismo y los derechos y obligaciones de los usuarios, control y sanciones pertinentes.").d-none.d-lg-block
+          img.mb-3(src="@/assets/curso/tema1/img15.png", alt="La figura 1 enuncia los aspectos sobre los cuales dicta disposiciones la Ley 300 de 1996. Dentro de estos afectos se encuentran entre otros, que el ecoturismo, etnoturismo, agroturismo, el turismo metropolitano, el turismo de interés social, el mercadeo promoción del turismo y la cooperación turística internacional, los incentivos tributarios, el Fondo de promoción turística, la Corporación Nacional de Turismo, el Registro Nacional de Turismo y los derechos y obligaciones de los usuarios, control y sanciones pertinentes.").d-block.d-lg-none
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
@@ -291,7 +291,7 @@
                   .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
                     p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
                   .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH002.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo2_NTSH002.pdf')" target="_blank")
                       span Ir al recurso
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 003")
@@ -308,7 +308,7 @@
                   .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
                     p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
                   .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH003.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo3_NTSH003.pdf')" target="_blank")
                       span Ir al recurso
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 004")
@@ -325,7 +325,7 @@
                   .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
                     p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
                   .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH004.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo4_NTSH004.pdf')" target="_blank")
                       span Ir al recurso
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 005")
@@ -342,7 +342,7 @@
                   .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
                     p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
                   .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH005.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo5_NTSH005.pdf')" target="_blank")
                       span Ir al recurso
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="NORMA TÉCNICA NTSH SECTORIAL COLOMBIANA 006")
@@ -359,7 +359,7 @@
                   .col-12.col-lg-12.cita-decorada__texto.mb-4.mb-lg-0
                     p.mb-0 Lo invitamos a consultar en el siguiente enlace, el contenido completo de esta norma.
                   .col-lg-6.col-md-6.col-12.d-flex.justify-content-center
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo1_NTSH006.pdf')" target="_blank")
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/Anexo6_NTSH006.pdf')" target="_blank")
                       span Ir al recurso
 
 
